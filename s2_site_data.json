@@ -1,0 +1,7145 @@
+{
+  "schema_version": "1.0",
+  "title": "信長之野望真戰 港台澳S2實戰攻略",
+  "as_of": "2026-10-04",
+  "region": [
+    "HK",
+    "MO",
+    "TW"
+  ],
+  "season": "S2 風雲爭霸",
+  "scope_note": "收錄可直接使用的S2攻略與配隊範例；136位索引僅核對官方卡池收錄，不代表完整屬性圖鑑。",
+  "source_policy": "官方確認機制及卡池；具名社群提供實測與配隊案例；抽池及首週取捨明確標為建議。資料限港台澳S2。",
+  "sources": [
+    {
+      "id": "O01",
+      "title": "S2 風雲爭霸官方發布稿",
+      "author": "發行商供稿／GNN",
+      "published_or_updated": "2026-01-23",
+      "url": "https://gnn.gamer.com.tw/detail.php?sn=299023",
+      "kind": "official_syndicated",
+      "accessed": "2026-10-04",
+      "note": "首批S2於1月24日；轉載版本同稿只算一個來源"
+    },
+    {
+      "id": "O02",
+      "title": "區域機率公示",
+      "author": "Qookka",
+      "published_or_updated": "2025-08-28（持續更新）",
+      "url": "https://nobunaga-shinsen.qookkagames.com/#/news/1965?topbar=none",
+      "kind": "official",
+      "accessed": "2026-10-04",
+      "note": "適用臺港澳新馬；頁面日期不代表表格最後更新日期"
+    },
+    {
+      "id": "C01",
+      "title": "S2新手期的開荒心得",
+      "author": "再玩黑椒，手筋自挑",
+      "published_or_updated": "2026-01-27",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=742",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": ""
+    },
+    {
+      "id": "C02",
+      "title": "S2賽季開荒手把手攻略",
+      "author": "正義養貓中／紫紙與貓司機經驗",
+      "published_or_updated": "2026-04-09（編輯）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=783",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "題目已更正倉庫7＋任務九＋國眾上納；作者30服2月7日開季，不能套全球日期"
+    },
+    {
+      "id": "C03",
+      "title": "S2開荒隊伍分享",
+      "author": "台式老情歌",
+      "published_or_updated": "2026-01-28",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=751",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": ""
+    },
+    {
+      "id": "C04",
+      "title": "S2開荒核心建議",
+      "author": "拿鐵",
+      "published_or_updated": "2026-02-10",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=800",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": ""
+    },
+    {
+      "id": "C05",
+      "title": "S2新武將實戰觀察",
+      "author": "嗡嗡",
+      "published_or_updated": "2026-02-09",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=797",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": ""
+    },
+    {
+      "id": "C06",
+      "title": "S2新武將特色定位和陣容整理",
+      "author": "Henchard",
+      "published_or_updated": "2026-02-06（編輯）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=785",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "瑞溪院第4回合描述有誤，採官方稿更正；部分角色評價屬早期觀察"
+    },
+    {
+      "id": "C07",
+      "title": "豐臣黑田隊特色解析",
+      "author": "台式老情歌",
+      "published_or_updated": "2026-01-31",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=762",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": ""
+    },
+    {
+      "id": "C08",
+      "title": "S2熱門陣容隊伍總結",
+      "author": "Henchard",
+      "published_or_updated": "2026-03-24（編輯）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=919",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "含柴田、戰法名稱錯字，交叉核對後統一"
+    },
+    {
+      "id": "C09",
+      "title": "山縣武田隊與黑田秀吉隊兵學推薦",
+      "author": "嗡嗡",
+      "published_or_updated": "2026-03-04",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=82869&sn=2110",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": ""
+    },
+    {
+      "id": "C10",
+      "title": "山縣昌景實戰及三種流派",
+      "author": "星羽",
+      "published_or_updated": "2026-03-31（論壇編輯）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=68",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "後期實測較早期新將排行更適合白板玩家；該串會持續改標題"
+    },
+    {
+      "id": "C11",
+      "title": "S2武將更新重點",
+      "author": "星羽",
+      "published_or_updated": "2026-01-29",
+      "url": "https://www.youtube.com/watch?v=-HAeXjKbnzs",
+      "kind": "community_video",
+      "accessed": "2026-10-04",
+      "note": "影片公開日非官方改動生效日；1月早期山縣資料可能未更新"
+    },
+    {
+      "id": "C12",
+      "title": "S2開荒實測分享",
+      "author": "星羽",
+      "published_or_updated": "2026-02-12",
+      "url": "https://www.youtube.com/watch?v=X9nN1bl5E3E",
+      "kind": "community_video",
+      "accessed": "2026-10-04",
+      "note": "不將作者首日7本當所有帳號達標承諾"
+    },
+    {
+      "id": "C13",
+      "title": "S2德川高中低配解析",
+      "author": "老衲 ccpcdenny93",
+      "published_or_updated": "2026-03-06（編輯）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=864",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "部分建議基於滿紅戰報；不採用其加碼付費語句"
+    },
+    {
+      "id": "C14",
+      "title": "豐臣與德川主流國家隊EP1",
+      "author": "正義養貓中",
+      "published_or_updated": "2026-02-06（編輯）",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=82869&sn=1738",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": ""
+    },
+    {
+      "id": "C15",
+      "title": "事件戰法介紹 貧名",
+      "author": "Elegant狐狸",
+      "published_or_updated": "2026-01-27",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=746",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "低課取捨觀點，非官方必換排行"
+    },
+    {
+      "id": "C16",
+      "title": "簡單聊一下事件戰法",
+      "author": "Addie",
+      "published_or_updated": "2026-01-14（編輯）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=656",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "季前觀察；不可作精確兌換材料／倍率唯一依據"
+    },
+    {
+      "id": "C17",
+      "title": "瑞溪院戰法解析",
+      "author": "好惱公只上遊戲",
+      "published_or_updated": "2026-08-03",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=1341",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "後期回顧S2武將；僅採戰法作用對象交叉驗證"
+    },
+    {
+      "id": "C18",
+      "title": "瑞溪院七級銀地戰報",
+      "author": "tonylin／S2004 桃園大叔",
+      "published_or_updated": "2026-01-31",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=82869&sn=1722",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "Lv46、20960兵單次戰報，絕不是第1日低等開荒門檻"
+    },
+    {
+      "id": "C19",
+      "title": "S2新角色簡評Part2",
+      "author": "滿滿的大寶／清流琊矢 snike428",
+      "published_or_updated": "2026-01-11（編輯）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=641",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "季前推演，只用於替換思路，不當後期實測"
+    },
+    {
+      "id": "C20",
+      "title": "S2新角色簡評Part1",
+      "author": "滿滿的大寶／清流琊矢 snike428",
+      "published_or_updated": "2026-01-11（編輯）",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=82869&sn=1457",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "高橋與北條綱成交換之隊伍邏輯"
+    },
+    {
+      "id": "C21",
+      "title": "進S2前九件事",
+      "author": "嗡嗡",
+      "published_or_updated": "2026-01（季前）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=628",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "398小判／20抽／11000存款是當時推測，不能當官方規則"
+    },
+    {
+      "id": "C22",
+      "title": "黑田官兵衛回顧",
+      "author": "好惱公只上遊戲",
+      "published_or_updated": "2026-06（完整日期待核對）",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=1128",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "不採用必抽／必一紅語氣"
+    },
+    {
+      "id": "C23",
+      "title": "評定眾與S2成就更新",
+      "author": "星羽",
+      "published_or_updated": "2026-03-28／03-07",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&page=2&snA=68",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "天守8、卸任7天、2月10日調整等為社群轉述；生效細節以本服公告"
+    },
+    {
+      "id": "O03",
+      "title": "賽季末應該做的6件事",
+      "author": "信長之野望真戰官方Facebook",
+      "published_or_updated": "2025-12-28",
+      "url": "https://www.facebook.com/Nobunaga.Shinsen.TW/posts/pfbid0u8dbP5F19JSmWbXtGHK84G6XW3SMDRHnSxEu5aonctJKEQA9PsVxeRxjCHe5YahLl",
+      "kind": "official",
+      "accessed": "2026-10-04",
+      "note": "官方原圖保留與重置表；季末準備指引"
+    },
+    {
+      "id": "O04",
+      "title": "S2瑞溪院完整官方圖卡",
+      "author": "信長之野望真戰官方Facebook",
+      "published_or_updated": "2026-01-10",
+      "url": "https://www.facebook.com/photo.php?fbid=122152459190719699&set=p.122152459190719699&type=3",
+      "kind": "official",
+      "accessed": "2026-10-04",
+      "note": "諸行無常的作用對象與首次造成傷害；靜動自在"
+    },
+    {
+      "id": "C24",
+      "title": "43至46服轉季公告轉載",
+      "author": "琴風 hereo（轉載官方公告）",
+      "published_or_updated": "2026-03-28",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=935",
+      "kind": "official_repost",
+      "accessed": "2026-10-04",
+      "note": "補充覺醒券／演練券取得的狀態不保留；實際合服日期只適用43至46服"
+    },
+    {
+      "id": "C25",
+      "title": "第二季賽前準備",
+      "author": "涼風味 sintin",
+      "published_or_updated": "2025-12-19",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=482",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "跨季心得留存、關閉自動轉化、裝備材料保留的早期社群交叉印證"
+    },
+    {
+      "id": "O05",
+      "title": "賽季結算及合服流程",
+      "author": "信長之野望真戰官方Facebook",
+      "published_or_updated": "2026-01-04",
+      "url": "https://www.facebook.com/Nobunaga.Shinsen.TW/posts/pfbid02rNkHV9QnabjmY5mRWtxBa4QKm2db4QrGTdZW5DfCjhYj9jFuFZXzFbNrdxgx4o8Bl",
+      "kind": "official",
+      "accessed": "2026-10-04",
+      "note": "只採結算快照原則，不套用舊測試圖的小隊人數與報名時長"
+    },
+    {
+      "id": "C26",
+      "title": "S2開荒推薦陣容",
+      "author": "滿滿的大寶／清流琊矢 snike428",
+      "published_or_updated": "2026-01-24（編輯）",
+      "url": "https://forum.gamer.com.tw/Co.php?bsn=82869&sn=1650",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "具名配隊範例；保留大將未明示之處，不轉成已驗證勝率"
+    },
+    {
+      "id": "C27",
+      "title": "關於第二季的一些想法與後續的優化方向",
+      "author": "hidd1234",
+      "published_or_updated": "2026-02-01",
+      "url": "https://forum.gamer.com.tw/C.php?bsn=82869&snA=767",
+      "kind": "community",
+      "accessed": "2026-10-04",
+      "note": "僅採398小判／20抽／2金的當時玩家記錄，非官方現行保底規則"
+    }
+  ],
+  "new_generals": [
+    {
+      "id": "kuroda",
+      "name": "黑田官兵衛",
+      "season": "S2",
+      "cost": 7,
+      "role": "持續謀略輸出",
+      "innate_tactic": "如水",
+      "teachable_tactic": "智者樂水",
+      "pull_priority": "已有秀吉＋寧寧時優先补最後一件",
+      "works_with": [
+        "豐臣秀吉",
+        "寧寧"
+      ],
+      "caution": "黑田低速；依靠治療、續航與行動前輸出。不要為傳授拆掉自己唯一的成隊核心",
+      "source_ids": [
+        "O01",
+        "C05",
+        "C07",
+        "C09"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [
+        "黑田官兵衞"
+      ],
+      "faction": "豐臣",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/07.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    },
+    {
+      "id": "yamagata",
+      "name": "山縣昌景",
+      "season": "S2",
+      "cost": 7,
+      "role": "會心兵刃輸出",
+      "innate_tactic": "武田之赤備",
+      "teachable_tactic": "縱橫馳突",
+      "pull_priority": "已有武田骨架及會心／控場戰法才上調",
+      "works_with": [
+        "武田信玄",
+        "飯富虎昌",
+        "馬場信春",
+        "山本勘助"
+      ],
+      "caution": "早期戰法曾重製；白板更宜穩定控制思路。本人與傳授會爭同一份資源",
+      "source_ids": [
+        "O01",
+        "C05",
+        "C09",
+        "C10"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [],
+      "faction": "武田",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/09.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    },
+    {
+      "id": "keiji",
+      "name": "前田慶次",
+      "season": "S2",
+      "cost": 6,
+      "role": "普攻突擊與大將控制",
+      "innate_tactic": "天下御免",
+      "teachable_tactic": "亂世戰華",
+      "pull_priority": "織田缺突擊核心或已有連擊鏈時考虑",
+      "works_with": [
+        "織田信長",
+        "柴田勝家"
+      ],
+      "caution": "慶次不是自帶全程連擊；需要突擊觸發支援。轉成純兵刃隊後更怕高兵刃減傷",
+      "source_ids": [
+        "O01",
+        "C05",
+        "C08"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [],
+      "faction": "織田",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/10.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    },
+    {
+      "id": "takahashi",
+      "name": "高橋紹運",
+      "season": "S2",
+      "cost": 6,
+      "role": "洞察型多功能輸出",
+      "innate_tactic": "豐後戰神",
+      "teachable_tactic": "亂世戰華",
+      "pull_priority": "缺群雄穩定輸出或今川所需戰法時條件式考虑",
+      "works_with": [
+        "北條氏康",
+        "立花道雪"
+      ],
+      "caution": "最高屬性決定加成方向，裝備與加點須一起檢查；洞察不能當成免傷",
+      "source_ids": [
+        "O01",
+        "C05",
+        "C20"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [],
+      "faction": "群雄",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/08.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    },
+    {
+      "id": "satomi",
+      "name": "里見義堯",
+      "season": "S2",
+      "cost": 4,
+      "role": "低費謀略開荒副輸出",
+      "innate_tactic": "仁者懷勇",
+      "teachable_tactic": "境目奮戰",
+      "pull_priority": "缺低費謀略位且已有隊友時可補",
+      "works_with": [
+        "阿市",
+        "今川義元",
+        "明智光秀"
+      ],
+      "caution": "須靠普攻帶動突擊，也須有智略隊友接續；不把物理隊友硬塞進去",
+      "source_ids": [
+        "O01",
+        "C05"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [
+        "裡見義堯"
+      ],
+      "faction": "群雄",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/11.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    },
+    {
+      "id": "soma",
+      "name": "相馬盛胤",
+      "season": "S2",
+      "cost": 5,
+      "role": "自帶戰法發動率輔助",
+      "innate_tactic": "先陣鼓舞",
+      "teachable_tactic": "境目奮戰",
+      "pull_priority": "通用預算下較後；只有明確戰法或隊伍缺口才追",
+      "works_with": [
+        "依靠自帶主動戰法的輸出"
+      ],
+      "caution": "增益本身也要先成功發動，不能把帳面提高發動率當全程常駐",
+      "source_ids": [
+        "O01",
+        "C05",
+        "C06"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [],
+      "faction": "群雄",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/13.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    },
+    {
+      "id": "zuikeiin",
+      "name": "瑞溪院",
+      "season": "S2",
+      "cost": 5,
+      "role": "前期增傷輔助",
+      "innate_tactic": "諸行無常",
+      "teachable_tactic": "靜動自在",
+      "pull_priority": "已有短回合爆發隊才考虑，不為零損標題追卡",
+      "works_with": [
+        "今川義元",
+        "毛利隆元"
+      ],
+      "caution": "第4回合起三回合，降低自身與敵軍單體每回合首次造成的傷害；不是讓一名友軍獲得全面承傷減免。單場46級七地零損不可外推。",
+      "source_ids": [
+        "O01",
+        "C17",
+        "C18",
+        "O04"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [],
+      "faction": "群雄",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/14.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    },
+    {
+      "id": "ouchi",
+      "name": "大內義隆",
+      "season": "S2",
+      "cost": 6,
+      "role": "謀略單核增傷輔助",
+      "innate_tactic": "末世道者",
+      "teachable_tactic": "靜動自在",
+      "pull_priority": "已有成型謀略單核才考虑，通用預算後排",
+      "works_with": [
+        "松永久秀",
+        "北條氏康"
+      ],
+      "caution": "增益給智略最高者；同隊物理輸出可能受其武勇削弱代價影響",
+      "source_ids": [
+        "O01",
+        "C05",
+        "C06"
+      ],
+      "confidence": "official_card_image_plus_community",
+      "aliases": [],
+      "faction": "群雄",
+      "official_verified_fields": [
+        "name",
+        "faction",
+        "cost",
+        "innate_tactic"
+      ],
+      "official_card_source": {
+        "image_url": "https://image.mycard520.com/globalmycard/news/2601/23/269557/12.webp",
+        "page_url": "https://app.mycard520.com.tw/news-%E3%80%8A%E4%BF%A1%E9%95%B7%E4%B9%8B%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%B0%E3%80%8Bs2%E8%B3%BD%E5%AD%A3%E3%80%8C%E9%A2%A8%E9%9B%B2%E7%88%AD%E9%9C%B8%E3%80%8D%E6%98%8E%E6%97%A5%E4%B8%8A%E7%B7%9A/",
+        "published": "2026-01-23",
+        "reuse_permission": "not_verified"
+      }
+    }
+  ],
+  "event_tactics": [
+    {
+      "name": "家中整飭",
+      "priority": "低課先看",
+      "use": "早期控普攻；用閒置群雄紫將兌換的成本較可控",
+      "do_not": "先保留開荒與覺醒所需材料，再評估兌換",
+      "source_ids": [
+        "C15"
+      ]
+    },
+    {
+      "name": "同盟姻親",
+      "priority": "有多餘材料才換",
+      "use": "補減傷與隊伍續航",
+      "do_not": "不要犧牲正在開荒的唯一阿市／淺井長政",
+      "source_ids": [
+        "C15",
+        "C16"
+      ]
+    },
+    {
+      "name": "疑兵盜城",
+      "priority": "謀略隊成型後",
+      "use": "配合多次謀略傷害；可考慮放明智光秀等隊伍",
+      "do_not": "不為未成型的法隊提早耗掉核心心得",
+      "source_ids": [
+        "C08",
+        "C15"
+      ]
+    },
+    {
+      "name": "斬雷神",
+      "priority": "會心主C且材料足夠",
+      "use": "山縣等兵刃核心的條件式升級",
+      "do_not": "先比較立花道雪上陣價值；白板不為湊戰法追額外金將",
+      "source_ids": [
+        "C10",
+        "C15",
+        "C16"
+      ]
+    },
+    {
+      "name": "立身之志",
+      "priority": "反擊／承傷體系",
+      "use": "德川、本多隊或帶沉魚落雁的承傷位",
+      "do_not": "不視為每支開荒隊通用必換",
+      "source_ids": [
+        "C08",
+        "C13",
+        "C15"
+      ]
+    },
+    {
+      "name": "乘虛而入",
+      "priority": "反擊本多有條件使用",
+      "use": "本多忠勝反擊與挑釁體系的功能選擇",
+      "do_not": "低配缺輸出時先比較理非曲直／槍之鈴等能造成傷害的方案",
+      "source_ids": [
+        "C08",
+        "C13"
+      ]
+    },
+    {
+      "name": "專橫專斷",
+      "priority": "織田等成熟配隊再看",
+      "use": "特定成熟輸出／控制配置",
+      "do_not": "成本高，不因橙色就壓過開荒攻擊與保命戰法",
+      "source_ids": [
+        "C08",
+        "C15"
+      ]
+    },
+    {
+      "name": "離心背道",
+      "priority": "中後期針對性控制",
+      "use": "針對對方大將的功能選項",
+      "do_not": "準備技與前期節奏不合時先不換",
+      "source_ids": [
+        "C15",
+        "C16"
+      ]
+    },
+    {
+      "name": "破天轟鳴",
+      "priority": "針對性備選",
+      "use": "先核對自己的兵種與對戰目的，再決定",
+      "do_not": "缺乏足夠的近期區服實測，不列入通用首輪推薦",
+      "source_ids": [
+        "C15"
+      ]
+    },
+    {
+      "name": "大器之蘊",
+      "priority": "長回合續航",
+      "use": "第5回合起群體治療，適合防守持久隊",
+      "do_not": "追求前幾回合結束的開荒隊不優先",
+      "source_ids": [
+        "O01",
+        "C15"
+      ]
+    }
+  ],
+  "pull_rules": [
+    {
+      "id": "no_budget",
+      "title": "無課與低小判",
+      "rule": "先組現有15 COST開荒隊；小判保留給最能補齊一隊的池。沒有秀吉寧寧骨架，就不因黑田排行高而追一張孤卡。新將、傳授與升紅三者先選一個目標。",
+      "type": "editorial_inference",
+      "source_ids": [
+        "C01",
+        "C02",
+        "C07"
+      ]
+    },
+    {
+      "id": "light_spend",
+      "title": "月卡或低課",
+      "rule": "以一支成熟主隊為目標。先補缺的武將，再補核心戰法，最後才考慮紅度；用小池副產物是否也有用作第二判斷。預算用現有小判設定，抽前固定上限，抽中即停。",
+      "type": "editorial_inference",
+      "source_ids": [
+        "O02",
+        "C07",
+        "C10"
+      ]
+    },
+    {
+      "id": "existing_army",
+      "title": "已有多隊與較完整戰法",
+      "rule": "把本人上陣、傳授、進階三種用途分開。山縣＋縱橫、黑田＋智者樂水常需更多副本，不應將一抽取得三種用途算進強度。全隊共存時先檢查戰法與武將重複占用。",
+      "type": "editorial_inference",
+      "source_ids": [
+        "C05",
+        "C09"
+      ]
+    }
+  ],
+  "known_pitfalls": [
+    "S2第1日是所屬伺服器轉季日，不是2026年1月24日的所有服共同日期。",
+    "高星概率不等於指定名將概率；不同卡池不可假设同率。",
+    "官方頁面的S2賽季獎勵可能是S2結算獎勵，不能當S1轉S2獎池。",
+    "兵種戰法須與實際兵種一致；三河弓與一領具足不可盲目同裝。",
+    "黑田首張上陣、傳授智者樂水、升紅互相消耗，不能一張兼得。",
+    "里見義堯為4C；瑞溪院5C。隊伍未到容量前不可照搬成型配置。",
+    "瑞溪院第4回合不是保護一名友軍，而是壓制一名敵軍首次傷害。",
+    "單次零損戰報不能轉成勝率；Lv46七地不能當第一日開荒條件。",
+    "加藤嘉明、真田昌幸、柿崎景家、合盟之陣、追亡逐北等S3或PK內容不得混入S2方案。",
+    "官兵衛常見異體衞；正信和忠勝是不同武將；甘粕景繼和甘粕景持不可混為一人。"
+  ],
+  "images_policy": {
+    "portrait_reuse_permission": "not_verified",
+    "action": "連結官方來源；不宣稱遊戲立繪可自由再發布",
+    "suggested_ui": "用家族色、武將姓名與角色標籤即可完成可讀卡片，不用假立繪或假戰力分數"
+  },
+  "official_pools": {
+    "official_notice": {
+      "url": "https://nobunaga-shinsen.qookkagames.com/#/news/1965?topbar=none",
+      "title": "機率公告",
+      "displayed_timestamp": "2025-08-28 19:00:00",
+      "retrieved_utc": "2026-10-04",
+      "region_scope": "臺港澳新馬",
+      "timestamp_caution": "頁面持續更新，已包含PK資料；此日期不是S2更新日",
+      "cautions": [
+        "同一武將不同卡包機率可能不同，以遊戲內卡包為準",
+        "官方機率四捨五入至小數後兩位，總和可能非100%",
+        "數值是每抽個別武將機率，並非抽中5星後的條件機率",
+        "未把網頁機率當成保底規則；沒有推算隱藏保底",
+        "人名採標準繁體：脇坂安治等字形可能因官方表格字型而異"
+      ]
+    },
+    "s2_product_pools": [
+      {
+        "name": "S2賽季名將卡池",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/480a8261-4109-4d55-97b8-550baccf6a8e.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "山縣昌景",
+              "individual_pct": 0.19
+            },
+            {
+              "name": "黑田官兵衛",
+              "individual_pct": 0.19
+            },
+            {
+              "name": "高橋紹運",
+              "individual_pct": 0.19
+            },
+            {
+              "name": "前田慶次",
+              "individual_pct": 0.19
+            },
+            {
+              "name": "里見義堯",
+              "individual_pct": 0.27
+            },
+            {
+              "name": "瑞溪院",
+              "individual_pct": 0.27
+            },
+            {
+              "name": "大內義隆",
+              "individual_pct": 0.54
+            },
+            {
+              "name": "相馬盛胤",
+              "individual_pct": 0.54
+            },
+            {
+              "name": "尼子晴久",
+              "individual_pct": 0.54
+            },
+            {
+              "name": "板垣信方",
+              "individual_pct": 0.54
+            },
+            {
+              "name": "河田長親",
+              "individual_pct": 0.54
+            },
+            {
+              "name": "南部晴政",
+              "individual_pct": 0.54
+            },
+            {
+              "name": "森可成",
+              "individual_pct": 0.54
+            },
+            {
+              "name": "阿市",
+              "individual_pct": 0.54
+            }
+          ],
+          "4": [
+            {
+              "name": "武田義信",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "池田千",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "九戶政實",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "山內一豐",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "大久保忠世",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "橫山喜內",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "遠藤直經",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "國司元相",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "小山田茂誠",
+              "individual_pct": 3.6
+            },
+            {
+              "name": "小山田信茂",
+              "individual_pct": 3.6
+            }
+          ],
+          "3": [
+            {
+              "name": "小早川秀秋",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "內藤信成",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "色部勝長",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "長野業盛",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "杉浦玄任",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "本莊實乃",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "色部長實",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "遠藤基信",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "金森長近",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "不破光治",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "河尻秀隆",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "口羽通良",
+              "individual_pct": 4.49
+            },
+            {
+              "name": "林秀貞",
+              "individual_pct": 4.49
+            }
+          ]
+        }
+      },
+      {
+        "name": "S2賽季初始大卡池",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/ebe55f8a-525b-43e3-9ef1-30cdfa3f7a21.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "織田信長",
+              "individual_pct": 0.06
+            },
+            {
+              "name": "武田信玄",
+              "individual_pct": 0.06
+            },
+            {
+              "name": "德川家康",
+              "individual_pct": 0.06
+            },
+            {
+              "name": "毛利元就",
+              "individual_pct": 0.06
+            },
+            {
+              "name": "豐臣秀吉",
+              "individual_pct": 0.06
+            },
+            {
+              "name": "上杉謙信",
+              "individual_pct": 0.06
+            },
+            {
+              "name": "歸蝶",
+              "individual_pct": 0.06
+            },
+            {
+              "name": "松永久秀",
+              "individual_pct": 0.08
+            },
+            {
+              "name": "馬場信春",
+              "individual_pct": 0.08
+            },
+            {
+              "name": "福島正則",
+              "individual_pct": 0.08
+            },
+            {
+              "name": "本多忠勝",
+              "individual_pct": 0.08
+            },
+            {
+              "name": "榊原康政",
+              "individual_pct": 0.08
+            },
+            {
+              "name": "立花道雪",
+              "individual_pct": 0.08
+            },
+            {
+              "name": "陶晴賢",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "伊達晴宗",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "毛利隆元",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "阿市",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "津田算長",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "甘粕景持",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "小島彌太郎",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "一條信龍",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "甘利虎泰",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "岡部元信",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "飯富虎昌",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "諏訪姬",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "佐久間信盛",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "稻葉一鐵",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "荒木村重",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "森可成",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "蜂須賀小六",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "可兒才藏",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "高力清長",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "松平信康",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "尼子晴久",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "齋藤義龍",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "南部晴政",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "大祝鶴",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "十河一存",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "真柄直隆",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "宮部繼潤",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "淺井長政",
+              "individual_pct": 0.16
+            },
+            {
+              "name": "仙桃院",
+              "individual_pct": 0.16
+            }
+          ],
+          "4": [
+            {
+              "name": "甘粕景繼",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "保科正俊",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "九戶政實",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "三枝昌貞",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "脇坂安治",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "氏家卜全",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "鈴木重朝",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "坂井政尚",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "安藤守就",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "佐久間盛政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "吉川廣家",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "大久保忠世",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "水原親憲",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "鳥居元忠",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "池田恒興",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "池田千",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "齋藤利三",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "岩城親隆",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "福留親政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "蜂須賀家政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "鬼庭左月齋",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "武田義信",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "山內一豐",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "下方貞清",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "小山田信茂",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "福原貞俊",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "栗山善助",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "小山田茂誠",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "毛利輝元",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "國司元相",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "多田三八郎",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "遠藤直經",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "結城秀康",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "太田牛一",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "新發田重家",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "磯野員昌",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "橫山喜內",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "池田輝政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "仙石權兵衛",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "小幡景憲",
+              "individual_pct": 0.9
+            }
+          ],
+          "3": [
+            {
+              "name": "小早川秀秋",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "內藤信成",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "色部勝長",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "長野業盛",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "杉浦玄任",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "本莊實乃",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "色部長實",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "遠藤基信",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "金森長近",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "筒井順慶",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "河尻秀隆",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "織田信雄",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "林秀貞",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "不破光治",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "口羽通良",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "本願寺教如",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "松平忠直",
+              "individual_pct": 3.44
+            }
+          ]
+        }
+      },
+      {
+        "name": "S2賽季最終大卡池",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/043fb857-2d90-4f58-aa22-3d507d67f1a1.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "織田信長",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "武田信玄",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "德川家康",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "毛利元就",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "豐臣秀吉",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "上杉謙信",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "歸蝶",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "今川義元",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "北條氏康",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "長宗我部元親",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "明智光秀",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "山縣昌景",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "黑田官兵衛",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "高橋紹運",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "前田慶次",
+              "individual_pct": 0.03
+            },
+            {
+              "name": "松永久秀",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "馬場信春",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "本多忠勝",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "榊原康政",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "內藤昌豐",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "成田甲斐",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "柴田勝家",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "竹中半兵衛",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "山本勘助",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "酒井忠次",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "北條綱成",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "福島正則",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "寧寧",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "前田利家",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "加藤清正",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "宇佐美定滿",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "本願寺顯如",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "立花道雪",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "妻木熙子",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "本多正信",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "壽桂尼",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "瑞溪院",
+              "individual_pct": 0.05
+            },
+            {
+              "name": "津田算長",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "伊達晴宗",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "陶晴賢",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "毛利隆元",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "阿市",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "甘粕景持",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "小島彌太郎",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "一條信龍",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "甘利虎泰",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "岡部元信",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "飯富虎昌",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "諏訪姬",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "佐久間信盛",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "稻葉一鐵",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "荒木村重",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "森可成",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "蜂須賀小六",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "可兒才藏",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "高力清長",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "松平信康",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "尼子晴久",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "齋藤義龍",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "南部晴政",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "大祝鶴",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "十河一存",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "真柄直隆",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "宮部繼潤",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "淺井長政",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "仙桃院",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "河田長親",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "原虎胤",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "明智秀滿",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "千坂景親",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "樋口兼豐",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "朝倉義景",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "板垣信方",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "太田資正",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "安東愛季",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "島津貴久",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "相馬盛胤",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "大內義隆",
+              "individual_pct": 0.1
+            },
+            {
+              "name": "里見義堯",
+              "individual_pct": 0.1
+            }
+          ],
+          "4": [
+            {
+              "name": "甘粕景繼",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "保科正俊",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "九戶政實",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "三枝昌貞",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "脇坂安治",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "氏家卜全",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "鈴木重朝",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "坂井政尚",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "安藤守就",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "佐久間盛政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "吉川廣家",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "大久保忠世",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "水原親憲",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "鳥居元忠",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "池田恒興",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "池田千",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "齋藤利三",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "岩城親隆",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "福留親政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "蜂須賀家政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "鬼庭左月齋",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "武田義信",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "山內一豐",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "下方貞清",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "小山田信茂",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "福原貞俊",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "栗山善助",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "小山田茂誠",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "毛利輝元",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "國司元相",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "多田三八郎",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "遠藤直經",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "結城秀康",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "太田牛一",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "新發田重家",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "磯野員昌",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "橫山喜內",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "池田輝政",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "仙石權兵衛",
+              "individual_pct": 0.9
+            },
+            {
+              "name": "小幡景憲",
+              "individual_pct": 0.9
+            }
+          ],
+          "3": [
+            {
+              "name": "小早川秀秋",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "內藤信成",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "色部勝長",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "長野業盛",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "杉浦玄任",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "本莊實乃",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "色部長實",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "遠藤基信",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "金森長近",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "筒井順慶",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "河尻秀隆",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "織田信雄",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "林秀貞",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "不破光治",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "口羽通良",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "本願寺教如",
+              "individual_pct": 3.44
+            },
+            {
+              "name": "松平忠直",
+              "individual_pct": 3.44
+            }
+          ]
+        }
+      },
+      {
+        "name": "S2賽季守政衰落",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/1e52b82e-1fd7-401f-b383-c80984d83b45.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "今川義元",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "柴田勝家",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "馬場信春",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "成田甲斐",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "高橋紹運",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "小島彌太郎",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "河田長親",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "可兒才藏",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "阿市",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "岡部元信",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "原虎胤",
+              "individual_pct": 0.66
+            }
+          ],
+          "4": [
+            {
+              "name": "甘粕景繼",
+              "individual_pct": 4
+            },
+            {
+              "name": "保科正俊",
+              "individual_pct": 4
+            },
+            {
+              "name": "脇坂安治",
+              "individual_pct": 4
+            },
+            {
+              "name": "坂井政尚",
+              "individual_pct": 4
+            },
+            {
+              "name": "佐久間盛政",
+              "individual_pct": 4
+            },
+            {
+              "name": "大久保忠世",
+              "individual_pct": 4
+            },
+            {
+              "name": "池田恒興",
+              "individual_pct": 4
+            },
+            {
+              "name": "栗山善助",
+              "individual_pct": 4
+            },
+            {
+              "name": "福原貞俊",
+              "individual_pct": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "本莊實乃",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "筒井順慶",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "色部勝長",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "河尻秀隆",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "口羽通良",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "色部長實",
+              "individual_pct": 9.73
+            }
+          ]
+        },
+        "unlock_trigger_verified": false,
+        "day": null
+      },
+      {
+        "name": "S2賽季大名並起",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/2e465abb-3518-4072-af6e-650728355a54.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "北條氏康",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "酒井忠次",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "山本勘助",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "竹中半兵衛",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "黑田官兵衛",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "毛利隆元",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "明智秀滿",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "佐久間信盛",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "高力清長",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "齋藤義龍",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "南部晴政",
+              "individual_pct": 0.66
+            }
+          ],
+          "4": [
+            {
+              "name": "保科正俊",
+              "individual_pct": 4
+            },
+            {
+              "name": "坂井政尚",
+              "individual_pct": 4
+            },
+            {
+              "name": "安藤守就",
+              "individual_pct": 4
+            },
+            {
+              "name": "池田千",
+              "individual_pct": 4
+            },
+            {
+              "name": "福原貞俊",
+              "individual_pct": 4
+            },
+            {
+              "name": "小山田茂誠",
+              "individual_pct": 4
+            },
+            {
+              "name": "太田牛一",
+              "individual_pct": 4
+            },
+            {
+              "name": "遠藤直經",
+              "individual_pct": 4
+            },
+            {
+              "name": "磯野員昌",
+              "individual_pct": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "內藤信成",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "色部勝長",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "杉浦玄任",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "金森長近",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "本願寺教如",
+              "individual_pct": 11.68
+            }
+          ]
+        },
+        "unlock_trigger_verified": false,
+        "day": null
+      },
+      {
+        "name": "S2賽季將星璀璨",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/ad9611dc-2cd0-4870-a704-8d1a11632e00.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "長宗我部元親",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "北條綱成",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "福島正則",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "內藤昌豐",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "前田慶次",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "樋口兼豐",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "真柄直隆",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "淺井長政",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "松平信康",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "千坂景親",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "尼子晴久",
+              "individual_pct": 0.66
+            }
+          ],
+          "4": [
+            {
+              "name": "三枝昌貞",
+              "individual_pct": 4
+            },
+            {
+              "name": "氏家卜全",
+              "individual_pct": 4
+            },
+            {
+              "name": "安藤守就",
+              "individual_pct": 4
+            },
+            {
+              "name": "鳥居元忠",
+              "individual_pct": 4
+            },
+            {
+              "name": "齋藤利三",
+              "individual_pct": 4
+            },
+            {
+              "name": "岩城親隆",
+              "individual_pct": 4
+            },
+            {
+              "name": "小山田信茂",
+              "individual_pct": 4
+            },
+            {
+              "name": "多田三八郎",
+              "individual_pct": 4
+            },
+            {
+              "name": "橫山喜內",
+              "individual_pct": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "內藤信成",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "本莊實乃",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "遠藤基信",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "林秀貞",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "口羽通良",
+              "individual_pct": 11.68
+            }
+          ]
+        },
+        "unlock_trigger_verified": false,
+        "day": null
+      },
+      {
+        "name": "S2賽季霸道雄心",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/264dba3d-801e-403f-9cfe-f6c7c90ab99c.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "明智光秀",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "寧寧",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "松永久秀",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "榊原康政",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "山縣昌景",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "伊達晴宗",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "朝倉義景",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "板垣信方",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "甘粕景持",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "荒木村重",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "甘利虎泰",
+              "individual_pct": 0.66
+            }
+          ],
+          "4": [
+            {
+              "name": "九戶政實",
+              "individual_pct": 4
+            },
+            {
+              "name": "蜂須賀家政",
+              "individual_pct": 4
+            },
+            {
+              "name": "鬼庭左月齋",
+              "individual_pct": 4
+            },
+            {
+              "name": "山內一豐",
+              "individual_pct": 4
+            },
+            {
+              "name": "小幡景憲",
+              "individual_pct": 4
+            },
+            {
+              "name": "國司元相",
+              "individual_pct": 4
+            },
+            {
+              "name": "下方貞清",
+              "individual_pct": 4
+            },
+            {
+              "name": "三枝昌貞",
+              "individual_pct": 4
+            },
+            {
+              "name": "佐久間盛政",
+              "individual_pct": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "小早川秀秋",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "杉浦玄任",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "河尻秀隆",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "不破光治",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "本願寺教如",
+              "individual_pct": 9.73
+            },
+            {
+              "name": "松平忠直",
+              "individual_pct": 9.73
+            }
+          ]
+        },
+        "unlock_trigger_verified": false,
+        "day": null
+      },
+      {
+        "name": "S2賽季遠國征伐",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/5d7c1a4e-d0f7-43e3-9e05-c7e6f217b456.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "本多忠勝",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "加藤清正",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "宇佐美定滿",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "前田利家",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "瑞溪院",
+              "individual_pct": 0.33
+            },
+            {
+              "name": "太田資正",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "安東愛季",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "陶晴賢",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "仙桃院",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "大內義隆",
+              "individual_pct": 0.66
+            },
+            {
+              "name": "森可成",
+              "individual_pct": 0.66
+            }
+          ],
+          "4": [
+            {
+              "name": "鈴木重朝",
+              "individual_pct": 4
+            },
+            {
+              "name": "吉川廣家",
+              "individual_pct": 4
+            },
+            {
+              "name": "水原親憲",
+              "individual_pct": 4
+            },
+            {
+              "name": "福留親政",
+              "individual_pct": 4
+            },
+            {
+              "name": "武田義信",
+              "individual_pct": 4
+            },
+            {
+              "name": "小山田信茂",
+              "individual_pct": 4
+            },
+            {
+              "name": "新發田重家",
+              "individual_pct": 4
+            },
+            {
+              "name": "甘粕景繼",
+              "individual_pct": 4
+            },
+            {
+              "name": "大久保忠世",
+              "individual_pct": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "長野業盛",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "織田信雄",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "林秀貞",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "不破光治",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "遠藤基信",
+              "individual_pct": 11.68
+            }
+          ]
+        },
+        "unlock_trigger_verified": false,
+        "day": null
+      },
+      {
+        "name": "S2賽季合縱連橫",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/9ba59bf3-b4ce-411b-a394-81536e3b55b1.png",
+        "aggregate_pct": {
+          "5": 5.6,
+          "4": 36.0,
+          "3": 58.4
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "本願寺顯如",
+              "individual_pct": 0.35
+            },
+            {
+              "name": "立花道雪",
+              "individual_pct": 0.35
+            },
+            {
+              "name": "妻木熙子",
+              "individual_pct": 0.35
+            },
+            {
+              "name": "壽桂尼",
+              "individual_pct": 0.35
+            },
+            {
+              "name": "里見義堯",
+              "individual_pct": 0.7
+            },
+            {
+              "name": "島津貴久",
+              "individual_pct": 0.7
+            },
+            {
+              "name": "飯富虎昌",
+              "individual_pct": 0.7
+            },
+            {
+              "name": "本多正信",
+              "individual_pct": 0.7
+            },
+            {
+              "name": "大祝鶴",
+              "individual_pct": 0.7
+            },
+            {
+              "name": "相馬盛胤",
+              "individual_pct": 0.7
+            }
+          ],
+          "4": [
+            {
+              "name": "毛利輝元",
+              "individual_pct": 4
+            },
+            {
+              "name": "結城秀康",
+              "individual_pct": 4
+            },
+            {
+              "name": "新發田重家",
+              "individual_pct": 4
+            },
+            {
+              "name": "池田輝政",
+              "individual_pct": 4
+            },
+            {
+              "name": "仙石權兵衛",
+              "individual_pct": 4
+            },
+            {
+              "name": "齋藤利三",
+              "individual_pct": 4
+            },
+            {
+              "name": "下方貞清",
+              "individual_pct": 4
+            },
+            {
+              "name": "小山田茂誠",
+              "individual_pct": 4
+            },
+            {
+              "name": "橫山喜內",
+              "individual_pct": 4
+            }
+          ],
+          "3": [
+            {
+              "name": "小早川秀秋",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "金森長近",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "織田信雄",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "色部長實",
+              "individual_pct": 11.68
+            },
+            {
+              "name": "松平忠直",
+              "individual_pct": 11.68
+            }
+          ]
+        },
+        "unlock_trigger_verified": false,
+        "day": null
+      }
+    ],
+    "s1_settlement_rewards_for_s2": [
+      {
+        "name": "S1霸業獎勵卡池",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/affd198b-bc35-4947-ad3d-0d6580b522cf.png",
+        "aggregate_pct": {
+          "5": 14.0,
+          "4": 86.0
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "山縣昌景",
+              "individual_pct": 1.51
+            },
+            {
+              "name": "黑田官兵衛",
+              "individual_pct": 1.51
+            },
+            {
+              "name": "高橋紹運",
+              "individual_pct": 1.51
+            },
+            {
+              "name": "前田慶次",
+              "individual_pct": 1.51
+            },
+            {
+              "name": "瑞溪院",
+              "individual_pct": 1.51
+            },
+            {
+              "name": "里見義堯",
+              "individual_pct": 2.15
+            },
+            {
+              "name": "相馬盛胤",
+              "individual_pct": 2.15
+            },
+            {
+              "name": "大內義隆",
+              "individual_pct": 2.15
+            }
+          ],
+          "4": [
+            {
+              "name": "甘粕景繼",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "保科正俊",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "九戶政實",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "三枝昌貞",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "脇坂安治",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "氏家卜全",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "鈴木重朝",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "坂井政尚",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "安藤守就",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "佐久間盛政",
+              "individual_pct": 8.6
+            }
+          ]
+        },
+        "interpretation": "S1結算獎勵，內含S2限定武將；勿與S2結算獎勵混淆",
+        "price_verified": false,
+        "guarantee_verified": false
+      },
+      {
+        "name": "S1割據獎勵卡池",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/0c69dfdf-d24d-42c4-91fc-0e610bf110e6.png",
+        "aggregate_pct": {
+          "5": 14.0,
+          "4": 86.0
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "高橋紹運",
+              "individual_pct": 1.92
+            },
+            {
+              "name": "黑田官兵衛",
+              "individual_pct": 1.92
+            },
+            {
+              "name": "瑞溪院",
+              "individual_pct": 1.92
+            },
+            {
+              "name": "里見義堯",
+              "individual_pct": 2.75
+            },
+            {
+              "name": "相馬盛胤",
+              "individual_pct": 2.75
+            },
+            {
+              "name": "大內義隆",
+              "individual_pct": 2.75
+            }
+          ],
+          "4": [
+            {
+              "name": "甘粕景繼",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "保科正俊",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "九戶政實",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "三枝昌貞",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "脇坂安治",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "氏家卜全",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "鈴木重朝",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "坂井政尚",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "安藤守就",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "佐久間盛政",
+              "individual_pct": 8.6
+            }
+          ]
+        },
+        "interpretation": "S1結算獎勵，內含S2限定武將；勿與S2結算獎勵混淆",
+        "price_verified": false,
+        "guarantee_verified": false
+      },
+      {
+        "name": "S1歷戰獎勵卡池",
+        "source_image": "https://cdn-os.qookkagames.com/galaxy/tcp/upload/a384ab98-f607-4d4f-b931-39b7ed75157e.png",
+        "aggregate_pct": {
+          "5": 14.0,
+          "4": 86.0
+        },
+        "roster": {
+          "5": [
+            {
+              "name": "黑田官兵衛",
+              "individual_pct": 2.23
+            },
+            {
+              "name": "瑞溪院",
+              "individual_pct": 2.23
+            },
+            {
+              "name": "里見義堯",
+              "individual_pct": 3.18
+            },
+            {
+              "name": "相馬盛胤",
+              "individual_pct": 3.18
+            },
+            {
+              "name": "大內義隆",
+              "individual_pct": 3.18
+            }
+          ],
+          "4": [
+            {
+              "name": "甘粕景繼",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "保科正俊",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "九戶政實",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "三枝昌貞",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "脇坂安治",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "氏家卜全",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "鈴木重朝",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "坂井政尚",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "安藤守就",
+              "individual_pct": 8.6
+            },
+            {
+              "name": "佐久間盛政",
+              "individual_pct": 8.6
+            }
+          ]
+        },
+        "interpretation": "S1結算獎勵，內含S2限定武將；勿與S2結算獎勵混淆",
+        "price_verified": false,
+        "guarantee_verified": false
+      }
+    ],
+    "unverified": [
+      "池子固定日數、開池時刻、關閉時間",
+      "398小判單抽、20抽2金/10抽1金等保底，需遊戲內說明或另官方佐證",
+      "初始大池至最終大池的逐階段入池順序"
+    ]
+  },
+  "official_name_index": [
+    {
+      "name": "山縣昌景",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "黑田官兵衛",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "高橋紹運",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "前田慶次",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "里見義堯",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "瑞溪院",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "大內義隆",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "相馬盛胤",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "尼子晴久",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "板垣信方",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "河田長親",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "南部晴政",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "森可成",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "阿市",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "武田義信",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "池田千",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "九戶政實",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "山內一豐",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "大久保忠世",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "橫山喜內",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "遠藤直經",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "國司元相",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "小山田茂誠",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "小山田信茂",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "小早川秀秋",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "內藤信成",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "色部勝長",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "長野業盛",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "杉浦玄任",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "本莊實乃",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "色部長實",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "遠藤基信",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "金森長近",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "不破光治",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "河尻秀隆",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "口羽通良",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "林秀貞",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季名將卡池",
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "織田信長",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "武田信玄",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "德川家康",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "毛利元就",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "豐臣秀吉",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "上杉謙信",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "歸蝶",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "松永久秀",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "馬場信春",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "福島正則",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "本多忠勝",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "榊原康政",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "立花道雪",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "陶晴賢",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "伊達晴宗",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "毛利隆元",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "津田算長",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "甘粕景持",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "小島彌太郎",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "一條信龍",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "甘利虎泰",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "岡部元信",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "飯富虎昌",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "諏訪姬",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "佐久間信盛",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "稻葉一鐵",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "荒木村重",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "蜂須賀小六",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "可兒才藏",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "高力清長",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "松平信康",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "齋藤義龍",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "大祝鶴",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "十河一存",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "真柄直隆",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "宮部繼潤",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "淺井長政",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "仙桃院",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "甘粕景繼",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "保科正俊",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "三枝昌貞",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "脇坂安治",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "氏家卜全",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "鈴木重朝",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "坂井政尚",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "安藤守就",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "佐久間盛政",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "吉川廣家",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "水原親憲",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "鳥居元忠",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "池田恒興",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "齋藤利三",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "岩城親隆",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "福留親政",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "蜂須賀家政",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "鬼庭左月齋",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "下方貞清",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "福原貞俊",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "栗山善助",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "毛利輝元",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "多田三八郎",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "結城秀康",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "太田牛一",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "新發田重家",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "磯野員昌",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "池田輝政",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "仙石權兵衛",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "小幡景憲",
+      "rarity": 4,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "筒井順慶",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "織田信雄",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "本願寺教如",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季大名並起",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "松平忠直",
+      "rarity": 3,
+      "pool_names": [
+        "S2賽季初始大卡池",
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "今川義元",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "北條氏康",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "長宗我部元親",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "明智光秀",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "內藤昌豐",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "成田甲斐",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "柴田勝家",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "竹中半兵衛",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "山本勘助",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "酒井忠次",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "北條綱成",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "寧寧",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "前田利家",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "加藤清正",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "宇佐美定滿",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "本願寺顯如",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "妻木熙子",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "本多正信",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "壽桂尼",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "原虎胤",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季守政衰落"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "明智秀滿",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季大名並起"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "千坂景親",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "樋口兼豐",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季將星璀璨"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "朝倉義景",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季霸道雄心"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "太田資正",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "安東愛季",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季遠國征伐"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    },
+    {
+      "name": "島津貴久",
+      "rarity": 5,
+      "pool_names": [
+        "S2賽季最終大卡池",
+        "S2賽季合縱連橫"
+      ],
+      "verified_fields": [
+        "name",
+        "rarity",
+        "pool_membership"
+      ],
+      "unverified_fields": [
+        "base_stats",
+        "growth_stats",
+        "weapon_aptitude",
+        "cost",
+        "innate_tactic",
+        "teachable_tactic"
+      ],
+      "source_ids": [
+        "O02"
+      ]
+    }
+  ],
+  "banner_decisions": [
+    {
+      "pool": "S2賽季守政衰落",
+      "target": "高橋紹運、今川義元、柴田勝家、成田甲斐",
+      "individual_pct_note": "以上各0.33%；阿市0.66%",
+      "priority_when": "缺15 COST開荒主力或群雄洞察輸出，且同池至少另一名也有用",
+      "skip_when": "開荒已完整，單為高橋換戰法但沒有今川等受益者",
+      "reason": "補即戰力比追孤立新將更有用",
+      "source_ids": [
+        "O02"
+      ],
+      "recommendation_type": "editorial_inference",
+      "unlock_day": null
+    },
+    {
+      "pool": "S2賽季大名並起",
+      "target": "黑田官兵衛、北條氏康、山本勘助、竹中半兵衛",
+      "individual_pct_note": "以上各0.33%；毛利隆元0.66%",
+      "priority_when": "已持有豐臣秀吉＋寧寧，黑田能補齊主隊；或武田缺山本、群雄缺北條",
+      "skip_when": "尚無豐臣骨架，只因黑田評價高就重押",
+      "reason": "主目標黑田；毛利隆元可作本體補師或草木皆兵來源，但先確認自己的使用需求",
+      "source_ids": [
+        "O02"
+      ],
+      "recommendation_type": "editorial_inference",
+      "unlock_day": null
+    },
+    {
+      "pool": "S2賽季將星璀璨",
+      "target": "前田慶次、福島正則、長宗我部元親、北條綱成",
+      "individual_pct_note": "以上各0.33%；淺井長政、尼子晴久各0.66%",
+      "priority_when": "要完善普攻／連擊隊，或織田缺慶次；連副產物也能強化現有隊伍",
+      "skip_when": "沒有連擊支援卻只追慶次；已有足夠物理隊、正缺謀略隊",
+      "reason": "尼子可提供氣炎萬丈，但不要把獲得指定副產物當必然",
+      "source_ids": [
+        "O02"
+      ],
+      "recommendation_type": "editorial_inference",
+      "unlock_day": null
+    },
+    {
+      "pool": "S2賽季霸道雄心",
+      "target": "山縣昌景、寧寧、明智光秀、松永久秀",
+      "individual_pct_note": "以上各0.33%；伊達晴宗0.66%",
+      "priority_when": "已有武田信玄／飯富等骨架且戰法足夠；或豐臣只差寧寧",
+      "skip_when": "低課白板沒有合適會心／控制配置，只被高紅戰報吸引",
+      "reason": "同池寧寧與光秀也能補成熟隊，比單看山縣新將標籤更重要",
+      "source_ids": [
+        "O02"
+      ],
+      "recommendation_type": "editorial_inference",
+      "unlock_day": null
+    },
+    {
+      "pool": "S2賽季遠國征伐",
+      "target": "本多忠勝、加藤清正、前田利家、宇佐美定滿、瑞溪院",
+      "individual_pct_note": "以上各0.33%；大內義隆0.66%",
+      "priority_when": "德川＋正信只差忠勝；或明確補特定體系",
+      "skip_when": "只是想抽瑞溪院複製一場零損戰報，卻沒有相同練度与控制",
+      "reason": "在缺件帳號可高優先；完整帳號可跳過",
+      "source_ids": [
+        "O02"
+      ],
+      "recommendation_type": "editorial_inference",
+      "unlock_day": null
+    },
+    {
+      "pool": "S2賽季合縱連橫",
+      "target": "本多正信、飯富虎昌、里見義堯、相馬盛胤；立花道雪",
+      "individual_pct_note": "前四者各0.70%；立花道雪0.35%",
+      "priority_when": "德川缺正信、武田缺飯富、謀略開荒缺4C里見；已有今川而缺境目奮戰",
+      "skip_when": "沒有這些缺口，或只想把新將收齊",
+      "reason": "優先級來自補隊，不由登場順序決定",
+      "source_ids": [
+        "O02"
+      ],
+      "recommendation_type": "editorial_inference",
+      "unlock_day": null
+    }
+  ],
+  "pull_order_by_roster": [
+    {
+      "if": "有秀吉＋寧寧，缺黑田",
+      "first": "大名並起",
+      "alternative": "先看有資格的S1結算獎勵池；錯過不以無上限大池補抽"
+    },
+    {
+      "if": "有秀吉＋黑田，缺寧寧",
+      "first": "霸道雄心",
+      "alternative": "先沿用成田／福島等已成型隊；不因黑田在手把全部資源耗盡"
+    },
+    {
+      "if": "有武田信玄＋飯富＋完整戰法",
+      "first": "霸道雄心（山縣）",
+      "alternative": "原山本武田仍可用；如果缺連擊戰法，明確評估山縣上陣或傳授用途"
+    },
+    {
+      "if": "有德川＋忠勝，缺正信",
+      "first": "合縱連橫",
+      "alternative": "先補齊隊伍再買防守事件戰法"
+    },
+    {
+      "if": "有德川＋正信，缺忠勝",
+      "first": "遠國征伐",
+      "alternative": "不要把任何金色輸出視為忠勝反擊的等價替代"
+    },
+    {
+      "if": "有織田＋柴田，想補慶次",
+      "first": "將星璀璨",
+      "alternative": "光秀法傷路線仍可保留對抗兵刃減傷隊"
+    },
+    {
+      "if": "主隊完全未定，無課或低課",
+      "first": "先不指定追新將",
+      "alternative": "用現有15C開荒；待成型路線與可接受副產物明確後，只選一個主要池"
+    }
+  ],
+  "tactic_rules": [
+    {
+      "topic": "普攻與突擊鏈",
+      "rule": "福島／慶次等需要普攻觸發；連擊增加觸發機會。成田甲斐已有連擊，不應無腦再占一格同類戰法；優先補突擊或增傷。",
+      "source_ids": [
+        "C01",
+        "C03",
+        "C14"
+      ]
+    },
+    {
+      "topic": "開荒保命先於華麗倍率",
+      "rule": "先確保核心輸出＋一個可靠控制／減傷位＋治療。氣炎萬丈、警戒備至、回天轉運、有備無患等按現有資源搭配；沒有S戰法先用A，不為湊6個S而散盡資源。",
+      "source_ids": [
+        "C01",
+        "C02",
+        "C03"
+      ]
+    },
+    {
+      "topic": "輸出與屬性一致",
+      "rule": "謀略傷害看智略方向，兵刃看武勇方向；黑田／里見不照抄福島的物理配置。高橋與武田信玄另外要檢查「最高屬性」會怎樣改變自帶戰法。",
+      "source_ids": [
+        "C05",
+        "C06",
+        "C09"
+      ]
+    },
+    {
+      "topic": "速度不是越多越好",
+      "rule": "飯富靠先手封擊與減傷掌握節奏，速度要先於需要他保護的輸出與目標。其他角色按本隊治療、增益與出傷順序調整，不用同一套全速模板。",
+      "source_ids": [
+        "C02",
+        "C09"
+      ]
+    },
+    {
+      "topic": "兵種不能亂混",
+      "rule": "僧兵隊用足輕；三河弓兵隊用弓。德川改弓路線時不能把一領具足原封不動搬過去。先對齊實際兵種，再看武將適性與兵種戰法。",
+      "source_ids": [
+        "C13",
+        "C14"
+      ]
+    },
+    {
+      "topic": "準備技的代價",
+      "rule": "竹中等需要準備的自帶戰法可考慮運勝之鼻，但只對符合描述的自帶戰法作用，不是讓任意攜帶戰法都跳過準備。開荒資源少時先用較穩定方案。",
+      "source_ids": [
+        "C14"
+      ]
+    },
+    {
+      "topic": "多隊共存",
+      "rule": "先做一隊6格戰法清單，再排第二隊。將回天轉運、氣炎萬丈、乘勝追擊、沉魚落雁等常見競爭戰法標記占用，不把每支網路頂配全部同時列成可出戰。",
+      "source_ids": [
+        "C08",
+        "C09"
+      ],
+      "type": "editorial_inference"
+    }
+  ],
+  "banner_mechanics_summary": {
+    "when": "跟本服天下／賽季進程及卡包實際開放走；無可靠資料支持固定第幾天。按官方表順序展示六池，不將順序當時程保證。",
+    "opening_reward": "S1霸業／割據／歷戰結算池對应轉入S2。霸業池可出8位S2新將；割據沒有山縣與慶次；歷戰再少高橋。",
+    "odds": "商品池5星總率5.60%，並非任何指定武將5.60%；各池內武將不同率。官方百分比四捨五入，不強行補足100%。",
+    "guarantee": "兩份正式S2社群文記載霸業／割據398小判單抽、20抽保底2金；屬歷史社群資料，未找到官方現行文字核實。不把此規則套其他池，也不承諾指定將。歷戰10抽1金未核實。",
+    "budget": "若遊戲內確認398×20，上限預算為7960小判；這只是價格算術，不等於建議必須抽滿。先扣掉開荒既定用途，再用剩餘可承擔小判決定是否抽。",
+    "source_ids": [
+      "O02",
+      "C02",
+      "C27"
+    ]
+  },
+  "name_aliases": {
+    "黑田官兵衞": "黑田官兵衛",
+    "裡見義堯": "里見義堯",
+    "紫田勝家": "柴田勝家",
+    "趁勝追擊": "乘勝追擊",
+    "氣焰萬丈": "氣炎萬丈",
+    "三河弓騎兵": "三河弓兵隊",
+    "疑兵盜賊": "疑兵盜城",
+    "理非取直": "理非曲直",
+    "古今獨止": "古今獨步",
+    "陣型毀壞": "陣型崩毀",
+    "拔除": "祓除",
+    "理非曲真": "理非曲直"
+  },
+  "opening_teams": [
+    {
+      "name": "福島＋柴田＋阿市",
+      "cost": 15,
+      "members": [
+        {
+          "general": "福島正則",
+          "cost": 6,
+          "position": "大將",
+          "learned_tactics": [
+            "一力當先",
+            "前後夾擊"
+          ]
+        },
+        {
+          "general": "柴田勝家",
+          "cost": 6,
+          "position": "副將",
+          "learned_tactics": [
+            "千軍辟易",
+            "乘勝追擊"
+          ]
+        },
+        {
+          "general": "阿市",
+          "cost": 3,
+          "position": "副將",
+          "learned_tactics": [
+            "氣炎萬丈",
+            "警戒備至"
+          ]
+        }
+      ],
+      "substitutions": "C03以祓除作阿市第二招較高配替代；後期可柴田換伊達晴宗並改伊達大將。換人後重新檢查兵種/配速",
+      "weapon": "無特定兵種戰法綁定；依偵察克制與隊伍兵種等級選",
+      "logic": "連擊/亂舞＋群攻快出傷，阿市控場及續航",
+      "warning": "雙金核不等於免費；沒有千軍的較省方案見共通替換",
+      "source_ids": [
+        "C03",
+        "C26"
+      ]
+    },
+    {
+      "name": "前田利家＋柴田＋阿市",
+      "cost": 15,
+      "members": [
+        {
+          "general": "前田利家",
+          "cost": 6,
+          "position": "原帖第一位，未另明示大將",
+          "learned_tactics": [
+            "前後夾擊",
+            "一力當先"
+          ]
+        },
+        {
+          "general": "柴田勝家",
+          "cost": 6,
+          "position": "副將",
+          "learned_tactics": [
+            "千軍辟易",
+            "乘勝追擊"
+          ]
+        },
+        {
+          "general": "阿市",
+          "cost": 3,
+          "position": "副將",
+          "learned_tactics": [
+            "氣炎萬丈",
+            "深謀遠慮"
+          ]
+        }
+      ],
+      "substitutions": "阿市深謀可按庫存換警戒備至或回天轉運；原帖也列一領具足，使用時受足輕限制",
+      "weapon": "選克制且保住兵種等級；若採一領具足則足輕",
+      "warning": "前田利家與S2新將前田慶次不同；本例確實是利家，不能擅改成慶次",
+      "source_ids": [
+        "C26"
+      ]
+    },
+    {
+      "name": "福島＋加藤＋阿市",
+      "cost": 15,
+      "members": [
+        {
+          "general": "福島正則",
+          "cost": 6,
+          "position": "第一位；大將推薦屬沿用福島大將機制的推論",
+          "learned_tactics": [
+            "前後夾擊",
+            "一力當先"
+          ]
+        },
+        {
+          "general": "加藤清正",
+          "cost": 6,
+          "position": "副將",
+          "learned_tactics": [
+            "千軍辟易",
+            "乘勝追擊"
+          ]
+        },
+        {
+          "general": "阿市",
+          "cost": 3,
+          "position": "副將",
+          "learned_tactics": [
+            "氣炎萬丈",
+            "警戒備至"
+          ]
+        }
+      ],
+      "substitutions": "阿市配置為同文通用輔助方案；若有深謀可替第二招",
+      "weapon": "不綁定兵種；按偵察選",
+      "warning": "是缺柴田時有來源的替代模板，不保證同強度",
+      "source_ids": [
+        "C26"
+      ]
+    },
+    {
+      "name": "福島＋成田＋阿市",
+      "cost": 15,
+      "members": [
+        {
+          "general": "福島正則",
+          "cost": 6,
+          "position": "第一位；大將推薦屬機制推論",
+          "learned_tactics": [
+            "一力當先",
+            "千軍辟易"
+          ]
+        },
+        {
+          "general": "成田甲斐",
+          "cost": 6,
+          "position": "副將",
+          "learned_tactics": [
+            "乘勝追擊",
+            "一刀兩斷"
+          ]
+        },
+        {
+          "general": "阿市",
+          "cost": 3,
+          "position": "副將",
+          "learned_tactics": [
+            "氣炎萬丈",
+            "警戒備至"
+          ]
+        }
+      ],
+      "substitutions": "阿市配置為同文通用輔助方案；來源原文趁勝追擊統一更正為乘勝追擊",
+      "weapon": "不綁定兵種；按偵察選",
+      "logic": "成田自帶連擊搭突擊，不另浪費槽重複塞連擊",
+      "source_ids": [
+        "C26"
+      ]
+    },
+    {
+      "name": "里見＋今川＋河田（阿市）",
+      "cost": 15,
+      "members": [
+        {
+          "general": "里見義堯",
+          "cost": 4,
+          "position": "原帖第一位，未另明示大將",
+          "learned_tactics": [
+            "前後夾擊",
+            "境目奮戰"
+          ]
+        },
+        {
+          "general": "今川義元",
+          "cost": 7,
+          "position": "副將",
+          "learned_tactics": [
+            "亂世戰華或岐阜侍從",
+            "乘勝追擊"
+          ]
+        },
+        {
+          "general": "河田長親",
+          "cost": 4,
+          "position": "副將",
+          "learned_tactics": [
+            "運勝之鼻",
+            "氣炎萬丈或回天轉運"
+          ]
+        }
+      ],
+      "substitutions": "河田換阿市後COST14，帶氣炎萬丈＋警戒備至/回天轉運；原帖里見戰法寫鏡目奮戰，以嗡嗡正文核為境目奮戰",
+      "weapon": "未核原實測兵種；勿指定成某兵種必勝",
+      "warning": "這是S2新卡已到手的候選，不建議為開荒硬抽到里見才出門；里見要與有智略輸出的隊友連動",
+      "source_ids": [
+        "C26",
+        "C05"
+      ]
+    },
+    {
+      "name": "低費武田：山本＋飯富＋諏訪",
+      "cost": 16,
+      "members": [
+        {
+          "general": "山本勘助",
+          "cost": 6,
+          "position": "大將",
+          "learned_tactics": [
+            "甲州流軍學",
+            "草木皆兵"
+          ]
+        },
+        {
+          "general": "飯富虎昌",
+          "cost": 6,
+          "position": "副將",
+          "learned_tactics": [
+            "百煉成鋼",
+            "先陣之勇"
+          ]
+        },
+        {
+          "general": "諏訪姬",
+          "cost": 4,
+          "position": "副將",
+          "learned_tactics": [
+            "有備無患",
+            "警戒備至"
+          ]
+        }
+      ],
+      "initial15cost": "諏訪先用小山田茂誠頂位（加智略、帶有備無患），天守7 COST16才換諏訪；初期第三位另一招原文未逐欄列出，勿冒稱完整實测照抄",
+      "logic": "飯富先手封擊，山本大將啄木鳥連動最高武勇飯富；諏訪淨化及增益；百煉補速度與統率",
+      "warning": "作者展示的是已有卡的低費實戰，非每個無課都有；案例戰損/10天50級不能當保證",
+      "source_ids": [
+        "C02"
+      ]
+    }
+  ],
+  "mature_teams": [
+    {
+      "name": "豐臣福島續航",
+      "total_cost": 19,
+      "members": [
+        {
+          "general": "豐臣秀吉",
+          "position": "大將",
+          "tactics": [
+            "回天轉運",
+            "警戒備至"
+          ]
+        },
+        {
+          "general": "福島正則",
+          "position": "副將",
+          "tactics": [
+            "一力當先",
+            "縱橫馳突"
+          ]
+        },
+        {
+          "general": "寧寧",
+          "position": "副將",
+          "tactics": [
+            "生死一顧",
+            "沉魚落雁"
+          ]
+        }
+      ],
+      "weapon": "原帖未固定，不替作者補定兵種",
+      "cost_risk": "縱橫馳突要山縣傳授，不為此先拆唯一山縣；若缺則回開荒方案前後夾擊/其他已有連擊，屬替代推論並非同強度",
+      "source_ids": [
+        "C08"
+      ]
+    },
+    {
+      "name": "黑田豐臣謀略弓",
+      "total_cost": 20,
+      "members": [
+        {
+          "general": "黑田官兵衛",
+          "position": "大將",
+          "tactics": [
+            "囊沙之計",
+            "氣炎萬丈"
+          ]
+        },
+        {
+          "general": "寧寧",
+          "position": "副將",
+          "tactics": [
+            "奇謀獨斷",
+            "甲斐弓騎兵"
+          ]
+        },
+        {
+          "general": "豐臣秀吉",
+          "position": "副將",
+          "tactics": [
+            "振旅凱歌",
+            "草木皆兵"
+          ]
+        }
+      ],
+      "weapon": "弓兵，甲斐弓騎兵是弓兵進階而非騎兵",
+      "warning": "COST20成隊，不能落地拿三核心開荒；治療/慢速持續輸出依賴活過前期，避禁療、强壓與不利兵種",
+      "captain_condition": "這是來源的黑田大將版本；只有確實解鎖並符合玄謀條件，才能另談隊友大將技生效。白板不能默認雙大將技，亦可按C07已列方案以秀吉為大將。",
+      "alternative_core_tactics": "黑田另有七十二欺計＋紅蓮之炎的後期兵學實測方向（C09），屬整隊調整，不保證任換一招更強。",
+      "source_ids": [
+        "C08",
+        "C14"
+      ]
+    },
+    {
+      "name": "山縣武田騎",
+      "total_cost": 19,
+      "members": [
+        {
+          "general": "山縣昌景",
+          "position": "大將",
+          "tactics": [
+            "所向披靡",
+            "斬雷神"
+          ]
+        },
+        {
+          "general": "馬場信春",
+          "position": "副將",
+          "tactics": [
+            "罵詈雜言",
+            "沉魚落雁"
+          ]
+        },
+        {
+          "general": "山本勘助",
+          "position": "副將",
+          "tactics": [
+            "赤備隊",
+            "回天轉運"
+          ]
+        }
+      ],
+      "weapon": "騎兵，赤備隊",
+      "substitutions": "原作者說馬場可換武田信玄，換後總COST20且角色/戰法需重配；不能視為原六招無腦平替",
+      "warning": "不同山縣紅度與改版影響大，只提供成隊方向，不列全民必抽或固定T0",
+      "source_ids": [
+        "C08"
+      ]
+    },
+    {
+      "name": "織田光秀鐵砲",
+      "total_cost": 20,
+      "members": [
+        {
+          "general": "織田信長",
+          "position": "大將",
+          "tactics": [
+            "氣炎萬丈",
+            "鐵砲僧兵"
+          ]
+        },
+        {
+          "general": "明智光秀",
+          "position": "副將",
+          "tactics": [
+            "七十二欺計",
+            "疑兵盜城"
+          ]
+        },
+        {
+          "general": "柴田勝家",
+          "position": "副將",
+          "tactics": [
+            "陣型崩毀",
+            "專橫專斷"
+          ]
+        }
+      ],
+      "weapon": "鐵砲",
+      "substitutions": "疑兵盜城缺時原作者提囊沙之計/紅蓮之炎作持續謀傷替代；光秀換前田慶次时原作者用縱橫馳突＋乘勝追擊，不能沿用光秀法術槽",
+      "warning": "原帖紫田勝家/陣型毀壞為筆誤已更正；慶次兵刃版遇僧兵更吃虧",
+      "source_ids": [
+        "C08",
+        "C05"
+      ]
+    },
+    {
+      "name": "德川本多反擊足輕",
+      "total_cost": 19,
+      "members": [
+        {
+          "general": "德川家康",
+          "position": "大將",
+          "tactics": [
+            "一領具足",
+            "僧兵隊"
+          ]
+        },
+        {
+          "general": "本多忠勝",
+          "position": "副將",
+          "tactics": [
+            "乘勝追擊",
+            "乘虛而入"
+          ]
+        },
+        {
+          "general": "本多正信",
+          "position": "副將",
+          "tactics": [
+            "大智不智",
+            "回天轉運"
+          ]
+        }
+      ],
+      "weapon": "足輕（俗稱槍）；一領具足與僧兵隊限制",
+      "substitutions": "本多忠勝理非曲直為已被多作者採用替換；德川可改立身之志＋一領具足，避開僧兵怕持續傷害的缺點",
+      "warning": "僧兵怕持續減益尤其火傷；不要拿大量僧兵硬撞光秀/黑田。改三河弓兵隊必須一起移除一領具足，不能槍/弓互斥同用",
+      "source_ids": [
+        "C08",
+        "C13",
+        "C14"
+      ]
+    }
+  ],
+  "day_plan": [
+    {
+      "day": "0／季末",
+      "type": "來源事實＋編者檢查",
+      "checkpoint": "按現有卡先鎖一隊15C，另列成型隊；演練主隊要用的戰法、保留事件指定材料，盤點覺醒是否依賴季節券；預留小判做轉戰法/勞力而非全抽光",
+      "source": "C02 + 星羽2026-01-29季前準備",
+      "numbers": "C02低小課例預留1500–2500小判，非人人必須充值；S級Lv5/7/10累計1680/4080/9480戰法經驗；三個7級＋三個5級=17280（算術核對）"
+    },
+    {
+      "day": "1／前段",
+      "type": "S2穩定參考，非保證門檻",
+      "checkpoint": "先2–3級地練到5級裝第二槽；偵察/克制，12級左右再試4級；穩定4級練到20級，覺醒第三槽+裝備後開5級；天守6為穩健主目標",
+      "source": "C02；C01較進取16–18開5僅作有條件比較",
+      "failure_rule": "被打殘/打平風險大就退回低級地補等級戰法；不為追榜重複撞同守軍"
+    },
+    {
+      "day": "1／後段",
+      "type": "來源方向",
+      "checkpoint": "逐步把低級土地換成可低損的5級地；石材優先但保木鐵糧供徵兵；親善拿資源與徵發相關信物；預排翌日天守7資源",
+      "source": "C01/C02",
+      "warning": "不要套單一固定資源比例；重點是石頭偏重及不缺糧徵兵"
+    },
+    {
+      "day": "2",
+      "type": "S2作者經驗參考",
+      "checkpoint": "天守7→COST16；兵舍3–5後有條件測6級地，優先所缺資源、石地；若高損仍刷5級，不要求當日一定7地",
+      "source": "C01",
+      "warning": "6級以上守軍開始帶兵學，不能照S1數字硬上；以偵察和本隊戰報校準"
+    },
+    {
+      "day": "3／新手期結束附近",
+      "type": "來源目標＋編者檢查",
+      "checkpoint": "準備天守8→COST17；新手結束前確定要拆/換的學習戰法與轉型將，查看當服繼承券規則；開始以軍策所接19/20C成隊。配合一門攻城時刻，留足兵力",
+      "source": "C01/C02",
+      "advanced_case": "C01個人約30級+兵舍7開7地；僅為當時陣容案例，不列普遍最低安全線"
+    },
+    {
+      "day": "4",
+      "type": "編者建議檢查點，沒有宣稱官方固定日程",
+      "checkpoint": "把第一主隊核心戰法/兵種科技補齊；比較連續數場同級地戰损，能穩定才擴6–7級；與一門確認進資源州、遷城及道路安排"
+    },
+    {
+      "day": "5",
+      "type": "編者建議檢查點",
+      "checkpoint": "按成隊需要補軍策所及兵舍；只在不拖慢主隊的前提練第二隊或攻城器械。第一隊尚缺經驗/戰法時，先不攤薄核心資源"
+    },
+    {
+      "day": "6",
+      "type": "編者建議檢查點",
+      "checkpoint": "做一次戰報審核：先手是否達標、輸出是否被封、補血是否太晚、兵種/兵法有無不生效；針對常見敵軍調戰法，不照別人滿紅戰報硬複製"
+    },
+    {
+      "day": "7",
+      "type": "編者驗收，不保證等級/戰功數字",
+      "checkpoint": "完成一隊角色與戰法閉環，能持續低損刷現階段資源地並配合一門行動；明確下一個卡/戰法缺口、可承擔的池預算與不拆名單。未達者先補經濟和主隊，不以必八地或必50級判定失敗"
+    }
+  ],
+  "constraints": {
+    "cost": {
+      "initial": 15,
+      "castle7": 16,
+      "castle8": 17,
+      "later": "靠軍策所提升，最終可達20",
+      "source": "C02/C01",
+      "confidence": "高（兩名S2作者一致）"
+    },
+    "slots": "武將5級開第二個戰法槽；20級覺醒後第三槽，20級可穿裝備。以下兩個學習戰法是20級覺醒後完整版，5–19級只能先帶其中一招；自帶戰法另計",
+    "cost_examples": [
+      "6+6+3=15",
+      "7+5+3=15",
+      "7+4+3=14",
+      "6+6+4=16，不能S2落地使用"
+    ],
+    "position": "大將由大將技決定，不等於最高星/最高輸出必當大將。明確案例：福島雙核隊福島大將；低費武田隊山本大將；黑田隊黑田大將；德川隊家康大將",
+    "weapon": "兵種選擇要同時看克制、武將特性/兵種等級、攜帶戰法適用兵種；不能一律按三戰S/A適性概念套用",
+    "stamina": "安全建議：民夫鋪路，主隊體力留給有收益的資源地；同級低損才連打或吃漢方藥；要等回兵就停。未核到S2現行每次行動固定消耗與恢復速度，勿寫成已確認S2數值",
+    "inheritance": "C02說第1、3天給繼承券，30級以下較省、31級需兩張；屬當時賽季活動案例，應對照當服券說明，不承諾每服固定贈送"
+  },
+  "common_tactic_substitutions": {
+    "source": "C26/C03/C01",
+    "missing_qianjun": "千軍辟易可按來源換矢石飛交或先制先登；替代只保留輸出功能，不會複製千軍與封擊/無策聯動威壓",
+    "support": "阿市第二槽可因缺件在警戒備至（減傷）、回天轉運（治療/淨化）、草木皆兵（謀略兼恢復）中取適合者；這些不是等價替換",
+    "pre20": "5–19級先保核心輸出或控場的一招；20級覺醒後再按兩槽模板補齊。具體先哪招需看已演練戰法、等級與當前守軍，無來源完整次序時明示編者取捨"
+  },
+  "editorial_recommendation": "先用已有15C隊完成穩定開荒，主隊成型優先於追新將；已經有秀吉寧寧者先看黑田，武田骨架完整者再評估山縣，其他池按缺件與可用副產物排序。",
+  "version": "1.0",
+  "display_terms": {
+    "faction": "勢力",
+    "house": "家門",
+    "name_index": "官方S2商品池收錄武將索引",
+    "new_generals": "8位S2新將完整攻略",
+    "day_plan": "以本服S2開季日計算的首週檢查點"
+  },
+  "counts": {
+    "official_name_index": 136,
+    "new_general_guides": 8,
+    "product_pools": 9,
+    "s1_settlement_pools": 3,
+    "opening_team_templates": 6,
+    "mature_team_templates": 5,
+    "event_tactic_notes": 10
+  },
+  "progression_systems": {
+    "military_study": {
+      "official_core": "五星名將及四星良將可研讀兵學，四類為武略（普攻）、機略（戰法）、陣立（防禦）、臨戰（輔助）；可以因隊伍角色改選類型。",
+      "source_ids": [
+        "O01"
+      ],
+      "examples": [
+        {
+          "unit": "黑田官兵衛",
+          "choice": "生生不息＋恩顧",
+          "context": "偏續航的黑田秀吉寧寧隊；攻擊版本的兵學要跟七十二欺計等戰法一起調整",
+          "source_ids": [
+            "C09"
+          ]
+        },
+        {
+          "unit": "豐臣秀吉",
+          "choice": "救援心得＋不惑II",
+          "context": "有智者樂水的續航版本；未有該戰法可回到治療／減傷方向",
+          "source_ids": [
+            "C09"
+          ]
+        },
+        {
+          "unit": "寧寧",
+          "choice": "達人大觀＋偕同I＋不惑II",
+          "context": "一般輔助版本；帶回天或改承傷玩法時再改兵學。雙不惑能否疊加未證實，不能額外加算",
+          "source_ids": [
+            "C09"
+          ]
+        },
+        {
+          "unit": "山縣昌景",
+          "choice": "剛柔並濟＋豪勇II＋突貫I",
+          "context": "嗡嗡示例搭浴血奮戰＋千軍辟易；不是把同套兵學無条件套全部山縣流派",
+          "source_ids": [
+            "C09"
+          ]
+        },
+        {
+          "unit": "飯富虎昌",
+          "choice": "達人大觀＋果敢I＋機動II",
+          "context": "赤備隊＋氣勢衝天的控場輔助版本；重點是先手節奏，不能抽離整隊照抄",
+          "source_ids": [
+            "C09"
+          ]
+        }
+      ]
+    },
+    "council": {
+      "unlock": "天守8後建評定所",
+      "early": "優先檢視增強兵役、石材增產與節用類；任命時同時看負面效果",
+      "mid": "依瓶頸轉市利、木鐵糧增產、增強軍役",
+      "late": "再看兵役、兵糧、年功加俸與兵種訓練",
+      "caution": "社群記錄卸任需7日，2月10日曾下調負面效果。先按本服當前描述規劃，不把最新主戰將隨便掛上去後才發現需等待；武將可自動升等的好處不能忽略任命條件。",
+      "source_ids": [
+        "O01",
+        "C23"
+      ],
+      "confidence": "dated_community_explanation"
+    }
+  },
+  "season_transition": {
+    "keep": [
+      "大判、小判；裝備、鍛造材料、武名之證及未失效外觀",
+      "武將卡、進階、正常取得的覺醒與武將心得",
+      "已傳授／已演練戰法及演練進度"
+    ],
+    "reset": [
+      "威信、領地、木鐵石糧、銀錢、銅錢、勞力",
+      "武將等級、經驗、配點；戰法學習次數、戰法經驗與等級",
+      "城建、支城、土地與地圖建築；RPG職人／軍學技能等級和相關茶具、武藝招式、禮物等"
+    ],
+    "temporary_exception": "覺醒券及演練券取得的臨時狀態不按永久養成保留；轉季前按本服說明逐項看，不把「覺醒保留」誤讀成所有券效果永久。",
+    "actions": [
+      "用本季會清零的銀錢登用，先保留主隊／事件／兵學所需的心得，再儲備可轉換的材料",
+      "關閉登用時自動轉戰法經驗，跨季保留心得，到新季再轉；已轉成戰法經驗不能當成跨季資產",
+      "先練好會保留演練進度的主隊戰法；列出唯一上陣核心與不能犧牲的材料",
+      "獎勵資格看正式結算當刻；報名、轉服與落州由本服公告和一門安排決定"
+    ],
+    "source_ids": [
+      "O03",
+      "C24",
+      "C25",
+      "O05"
+    ],
+    "confidence": "official_primary_plus_official_repost_for_temporary_exceptions"
+  }
+}
