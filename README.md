@@ -1,6 +1,6 @@
 # 戰國配隊室 · S2 港澳台
 
-Independent personal static planner and Traditional Chinese guide. Not affiliated with the game, its publishers, Azea or any business. No game-account connection or backend; your collection stays in this browser's localStorage. Export JSON backups to move data between devices.
+Independent personal static planner and Traditional Chinese guide. Not affiliated with the game or its publishers. No game-account connection or backend; your collection stays in this browser's localStorage. Export JSON backups to move data between devices.
 
 Enter your owned generals, tactics, levels and sourced current stats. The Beta candidate comparison keeps the other slots and equipped tactics fixed, checks your entered caps/copy/exclusion rules, and compares role coverage and known stat subtotals. Unknown values remain unknown. It does not calculate official combat power, win rates or battle simulation.
 
